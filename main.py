@@ -5,6 +5,7 @@ import shap
 
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from textblob import TextBlob
 from sklearn.model_selection import train_test_split
